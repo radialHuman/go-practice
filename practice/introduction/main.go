@@ -33,6 +33,8 @@ func main() { // this gets executed first
 	functionsOutput, _ = function2("double, but ignoring the other\n") // use _ to ignore the in coming output from function
 	fmt.Printf("First word is %s", functionsOutput)
 
+	// ****************************************************************************************
+
 }
 
 // apart from main function there can be other functions, but main is default
