@@ -26,6 +26,12 @@ func main() { // this gets executed first
 	fmt.Printf("%d\n", number) // like using f string or format
 
 	// ****************************************************************************************
+	var secondFunctionOutput string
+	functionsOutput, secondFunctionOutput = function2("double variable storing") // output of funciton with n variables must be stored in n variables
+	fmt.Printf("First word is %s\nSecond word is %s\n", functionsOutput, secondFunctionOutput)
+
+	functionsOutput, _ = function2("double, but ignoring the other\n") // use _ to ignore the in coming output from function
+	fmt.Printf("First word is %s", functionsOutput)
 
 }
 
