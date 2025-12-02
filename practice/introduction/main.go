@@ -15,10 +15,26 @@ func main() { // this gets executed first
 
 	// if storing is not required then function can directly be passed as in other languages
 	log.Println(function1("else"))
+
+	// ****************************************************************************************
+	var number int  // another type
+	println(number) // if this works why use fmt? #doubt
+	// numbers if uninitialized has the value 0 as default
+
+	number = 7
+	number = 8
+	fmt.Printf("%d\n", number) // like using f string or format
+
+	// ****************************************************************************************
+
 }
 
 // apart from main function there can be other functions, but main is default
 
 func function1(param1 string) string { // string input as param1 and string output, no : no ->
 	return param1
+}
+
+func function2(param1 string) (string, string) { // multiple return
+	return param1, " ****"
 }
