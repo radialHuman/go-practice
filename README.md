@@ -7,7 +7,7 @@ To learn Golang for building a robust backend
 # Resources
 - building modern web applications with go (golang)
 - Code gyan : Golang tutorial : basics, faster better [list](https://www.youtube.com/playlist?list=PLXQpH_kZIxTWUe-Ee-DZEX5gfeoo4tHV6)
-- last golang tutorial : [video](https://youtu.be/tgGNwG_UxFo)
+- last golang tutorial : [video](https://youtu.be/tgGNwG_UxFo) 
 
 # books
 - Lets go further
