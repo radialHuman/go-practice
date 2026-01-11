@@ -6,3 +6,5 @@
 
 1. go mod init github.com/radialhuman/cg-golang-tutorial/30_rest_api
 2. cmd/students-api/main.go
+3. config file : config/local.yaml, must be prod.yaml in future
+4. use sqlite
